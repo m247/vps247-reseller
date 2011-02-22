@@ -48,7 +48,7 @@
   <body>
     <center>
       <div class="login_box">
-      <img src="<?= $CONFIG['logo_url'] ?>"/>
+      <img src="<?= $CONFIG['logo_url'] ?>"/><br/>
   <? if ($errors) { ?>
         <span class="errors"><?= $errors ?></span>
   <? } ?>
