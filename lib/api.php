@@ -1,7 +1,7 @@
 <?php
 require_once 'rest_client.php';
 
-define('VPS247_ROOT', 'http://admin.vps247.com');
+define('VPS247_ROOT', 'https://admin.vps247.com');
 
 class VpsClient {
   private $rest_client;
