@@ -23,6 +23,6 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
  
-  $CONFIG['api_key'] = "Put your API key here"
-  $CONFIG['logo_url'] = "Put URL to logo here"
+  $CONFIG['api_key'] = "Put your API key here";
+  $CONFIG['logo_url'] = "Put URL to logo here";
 ?>
