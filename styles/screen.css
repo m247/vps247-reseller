@@ -1,0 +1,34 @@
+body        { font-family: Arial,sans-serif; }
+.field_name { text-align: left;
+              width: 100px;
+              display: inline-block; }
+.login_box  { vertical-align: middle;
+              margin: auto;
+              padding-top: 15px;
+              width: 300px;
+              border: 1px solid black;
+              margin-top: 200px;
+              line-height: 28px; }
+table       { background-color: #BBBBBB; }
+td          { background-color: white; 
+              padding: 4px; }
+table.vertical { border: 1px solid black; }
+table.vertical th {
+              text-align: right;
+            }
+.actions_box { display: inline-block;
+               border-left: 1px solid gray;
+               padding-left: 8px;
+               padding-right: 8px;
+             }
+.errors     { color: red; }
+.notices    { color: green; }
+form        { margin: 0px;
+              padding: 0px; }
+.title      { font-size: 24pt;
+              font-weight: bold;
+            }
+.title img  { vertical-align: middle;
+              padding-right: 20px; }
+.user_info  { width: 100%; 
+              text-align: right; }
