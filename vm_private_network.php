@@ -50,14 +50,14 @@
 
   if ($_POST['do_create']) {
       if (strlen($_POST['private_vlan_name']) < 3) {
-        $_SESSION['errors'] = "The VLAN name must be at least 3 characters long.";
+        $errors = "The VLAN name must be at least 3 characters long.";
       } else if ($api->create_private_vlan($_POST['private_vlan_name'],$_SESSION['user_id'])) {
         $vm = $api->get_vm($_GET['id']);
         $_SESSION['notice'] = "The VLAN was successfully created.";
       } else {
         $_SESSION['errors'] = "The VLAN could not be created at this time.";
       }
-      if (!$_SESSION['errors']) {
+      if (!$errors) {
         header("Location: vm_private_network.php?id={$_GET['id']}");
         exit;
       }
