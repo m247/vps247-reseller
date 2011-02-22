@@ -2,6 +2,8 @@ vps247 Whitelabel Reseller Panel
 ================================
 This is a PHP app which you can use for whitelabel reselling of vps247 services.
 
-If you simply want to style the panel with a logo and modified CSS, you can use our own hosted version of this app.  If you want to make more drastic changes to the appearance/operation of the panel, then you can host/modify this app yourself to your liking.
+If you simply want to style the panel with a logo, you can use our own hosted version of this app.  If you want to make more drastic changes to the appearance/operation of the panel, then you can host/modify this app yourself to your liking.
+
+IMPORTANT: This app requires PHP >= 5.3.0 and the "HTTP_Request" PEAR module to function.
 
 Licensed under the terms of the MIT License.
